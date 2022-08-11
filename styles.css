@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-size: arial;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: #025a9b;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.section {
+  padding: 1rem 2rem;
+}
+.section-accent {
+  background-color: #025a9b;
+  color: #fff;
+}
+
+.section-content {
+  padding-left: 1rem;
+}
+
+.section-list {
+  list-style: none;
+  margin: 0;
+  font: 1rem;
+  font-style: italic;
+}
+.section-img {
+  list-style: none;
+  margin: 0;
+}
+.section-lorem {
+  color: #777;
+}
+
+.project-list {
+  margin-bottom: 1rem;
+}
+.project-list:last-child {
+  margin: 0;
+}
+
+.input {
+  border: 1px solid #069;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.2em;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.input:focus {
+  border-color: #069;
+  box-shadow: 0 0 5px 0 #069;
+}
+
+.input-no-resize {
+  resize: none;
+}
+.btn {
+  background-color: rgb(14, 175, 255);
+  color: #fff;
+  border: 1px solid rgb(14, 175, 255);
+  outline: 0;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #069;
+  box-shadow: 0 0 5px 0 rgb(1, 41, 61);
+}
+
+.footer {
+  background-color: #025a9b;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em;
+}
